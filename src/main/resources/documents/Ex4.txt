@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Ejercicio4 {
+    public static void main(String[] args) {
+
+        /*
+
+### 4. **Concatenación de Strings**
+- **Enunciado**: Declara dos variables `String`, `firstName = "John"` y `lastName = "Doe"`.
+    Combínalas en una nueva variable llamada `fullName`. Imprime el valor de `fullName`.
+- **Conceptos**: Concatenación de cadenas.
+
+         */
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("diga tu primer nombre");
+
+        String firstName = sc.nextLine();
+
+        System.out.println("diga tu segundo nombre");
+
+        String lastName = sc.nextLine();
+
+        String fullName = firstName + " " + lastName;
+
+        System.out.println("bienvenido señor/a " + fullName);
+
+
+    }
+}

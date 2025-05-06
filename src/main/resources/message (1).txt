@@ -1,0 +1,65 @@
+Aquí tienes un listado de 10 ejercicios básicos de Java enfocados únicamente en tipos de variables, Strings y operadores, sin incluir condicionales, bucles ni control de flujo:
+
+---
+
+### 1. **Declaración de Variables**
+- **Enunciado**: Declara variables para almacenar tu nombre, edad, altura (en metros), si eres mayor de edad y tu inicial del primer nombre. Luego imprime estos valores por consola.
+- **Conceptos**: Tipos de variables, `System.out.println`.
+
+---
+
+### 2. **Conversión de Tipos**
+- **Enunciado**: Declara una variable de tipo `int` con el valor 42. Convierte este valor a `double` y almacénalo en otra variable. Imprime ambas variables.
+- **Conceptos**: Conversión implícita de tipos.
+
+---
+
+### 3. **Operaciones Matemáticas Básicas**
+- **Enunciado**: Declara dos variables `int`, `a = 10` y `b = 5`. Calcula su suma, resta, multiplicación y división, almacenando los resultados en variables. Imprime todos los resultados.
+- **Conceptos**: Operadores aritméticos.
+
+---
+
+### 4. **Concatenación de Strings**
+- **Enunciado**: Declara dos variables `String`, `firstName = "John"` y `lastName = "Doe"`. Combínalas en una nueva variable llamada `fullName`. Imprime el valor de `fullName`.
+- **Conceptos**: Concatenación de cadenas.
+
+---
+
+### 5. **Calcular Área de un Rectángulo**
+- **Enunciado**: Declara dos variables `double` para almacenar el ancho y la altura de un rectángulo. Calcula su área y almacénalo en otra variable. Imprime el resultado.
+- **Conceptos**: Operadores aritméticos.
+
+---
+
+### 6. **Uso de Constantes**
+- **Enunciado**: Declara una constante para el valor de `PI` (3.14159). Usa esta constante para calcular el área de un círculo dado un radio almacenado en una variable. Imprime el resultado.
+- **Conceptos**: Palabra clave `final`.
+
+---
+
+### 7. **Longitud de un String**
+- **Enunciado**: Declara una variable `String` con tu frase favorita. Calcula y almacena la longitud de esta frase usando el método `.length()`. Imprime el resultado.
+- **Conceptos**: Métodos de la clase `String`.
+
+---
+
+### 8. **Conversión de String a Número**
+- **Enunciado**: Declara una variable `String` con el valor `"25"`. Convierte este valor a un número entero usando `Integer.parseInt()` y almacénalo en una variable `int`. Imprime el número.
+- **Conceptos**: Conversión de String a tipos primitivos.
+
+---
+
+### 9. **Cálculo de Promedio**
+- **Enunciado**: Declara tres variables `double` con las notas de tres exámenes. Calcula el promedio de estas notas y almacénalo en otra variable. Imprime el resultado.
+- **Conceptos**: Operaciones aritméticas básicas.
+
+---
+
+### 10. **Extraer Caracteres de un String**
+- **Enunciado**: Declara una variable `String` con tu nombre. Usa el método `.charAt()` para extraer e imprimir el primer y último carácter.
+- **Conceptos**: Métodos de la clase `String`.
+
+---
+
+Estos ejercicios son perfectos para aprender la sintaxis básica y manipulación de datos en Java. ¿Te interesa que desarrolle alguno con enunciado más detallado o una solución inicial?
