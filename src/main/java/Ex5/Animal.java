@@ -1,6 +1,8 @@
 package Ex5;
 
-public class Animal {
+import java.io.Serializable;
+
+public class Animal implements Serializable {
     private String name;
     private String species;
     private int age;

@@ -47,11 +47,10 @@ Run (example with a file that has spaces in its name):
 Ex5: Serialize and deserialize a Java object
 ----------------------------------------------------------------
 Compile:
-    javac src\main\java\Animal.java
-    javac src\main\java\Ex5.java
+    javac -d out src\main\java\Ex5\*.java
 
 Run:
-    java -cp src\main\java Ex5
+    java -cp out Ex5.Ex5
 
 Output:
     Creates 'animal.ser' and prints the deserialized object.
